@@ -5,7 +5,7 @@ void in_nguoc(int n){
 		return;
 	else{
 		printf("%d ", n%10);
-		return in_nguoc(n/10);
+		in_nguoc(n/10);
 	}
 }
 

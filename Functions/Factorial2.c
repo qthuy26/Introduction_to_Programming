@@ -3,7 +3,7 @@
 long long Factorial2(int n){
 	int i;
 	long long s=1;
-	if(n % 2 == 0){
+	if(n % 2 != 0){
 		for(i = 1; i <= n; i+=2)
 			s *= i;
 	}
